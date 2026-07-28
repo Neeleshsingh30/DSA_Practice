@@ -16,7 +16,9 @@ def countOddEven(arr):
 
 # test the function with a sample list
 if __name__ == "__main__":
+    # sample list of integers
     arr = [1,2,3,4,5,6,7,8,9,10,11,12,13,21,15,17]
     odd_count, even_count = countOddEven(arr)
     print("Number of odd numbers: ", odd_count)
     print("Number of even numbers: ", even_count)
+    print("Total numbers: ", len(arr))
