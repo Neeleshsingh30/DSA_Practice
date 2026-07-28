@@ -22,3 +22,4 @@ if __name__ == "__main__":
     print("Number of odd numbers: ", odd_count)
     print("Number of even numbers: ", even_count)
     print("Total numbers: ", len(arr))
+    
