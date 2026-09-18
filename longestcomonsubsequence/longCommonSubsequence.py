@@ -2,7 +2,7 @@
 
 
 class Solution:
-    def longestCommmonsequence(self, text1: str, text2: str) -> int:
+    def longestCommonSubsequence(self, text1: str, text2: str) -> int:
         m = len(text1)
         n = len(text2)
         dp = [[0] * (n + 1) for _ in range(m + 1)]
@@ -19,6 +19,6 @@ class Solution:
 
 # example usage
 solution = Solution()
-text1 = "abcde"
-text2 = "ace"
-print(solution.longestCommmonsequence(text1, text2))
+text1 = "abc"
+text2 = "abc"
+print(solution.longestCommonSubsequence(text1, text2))
